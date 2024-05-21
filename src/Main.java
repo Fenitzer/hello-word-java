@@ -29,23 +29,21 @@ public class Main
         float var1 = input.nextFloat();
         System.out.println("qual a segunda variável");
         float var2 = input.nextFloat();
+        float result = 0;
 
         if (Objects.equals(operação, "+")) {
-            float result = var1 + var2;
-            System.out.println("seu resultado é " + result);
+            result = var1 + var2;
         }
         if (Objects.equals(operação, "-")) {
-            float result = var1 - var2;
-            System.out.println("seu resultado é " + result);
+            result = var1 - var2;
         }
         if (Objects.equals(operação, "/")) {
-            float result = var1 / var2;
-            System.out.println("seu resultado é " + result);
+            result = var1 / var2;
         }
         if (Objects.equals(operação, "*")) {
-            float result = var1 * var2;
-            System.out.println("seu resultado é " + result);
+            result = var1 * var2;
         }
+        System.out.println("Seu resultado é " + result);
     }
 }
 
